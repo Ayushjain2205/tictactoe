@@ -62,7 +62,7 @@ body {
 
 .cell.x::before,
 .cell.x::after {
-  background-color: black;
+  background-color: rgb(68, 0, 255);
 }
 
 .board.x .cell:not(.x):not(.o):hover::before,
@@ -99,7 +99,7 @@ body {
 }
 
 .cell.o::before {
-  background-color: black;
+  background-color: rgb(21, 255, 0);
 }
 
 .board.o .cell:not(.x):not(.o):hover::before {
@@ -137,6 +137,7 @@ body {
   color: white;
   font-size: 5rem;
   flex-direction: column;
+  font-family: sans-serif;
 }
 
 .winning-message button {
